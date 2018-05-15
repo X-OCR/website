@@ -1,0 +1,54 @@
+@import "../../global";
+
+* {
+  margin: 0px;
+  padding: 0px; 
+  font-family: $main-font;
+  color: $font-color;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+h2 {
+  font-size:1.5em;
+  padding:5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font;
+}
+
+a { 
+  color: $font-color;
+  text-decoration: None;
+}
+a:hover { 
+  color: $font-color;
+  text-decoration: None;
+ }
+
+html, 
+body,
+#root {
+    height: 100%;
+    background: $background-color;
+}
+
+.App, .pagecontainer {
+  height:100%;
+  width:100%;
+}
+
+.pagecontainer {
+    width: 60%;
+    margin-left:20%;
+    margin-right: 20%;
+
+    div {
+      margin-top: 20px;
+    }
+}

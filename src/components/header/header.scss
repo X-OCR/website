@@ -1,0 +1,20 @@
+@import '../../global';
+
+.Header {
+    display: inline;
+    padding-right: 20px;
+
+    h1, .fa-building {
+        color: $header-color;
+        display: inline;
+    }
+
+    h1 {
+        font-size: 2.7em;
+        font-family: $X-font;
+    }
+
+    .fa-building {
+        font-size: 1.8em;
+    }
+}
