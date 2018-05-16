@@ -17,7 +17,10 @@
     .Dropdown div {
         margin: 0px;
         padding-top:10px;
-        display: none;
+        //display: none;
+        max-height:0px;
+        overflow: hidden;
+        transition: 0.5s;
         position: absolute;
         z-index: 1;
         background-color: $background-color;
@@ -25,11 +28,11 @@
 
     .Dropdown div:hover, .Dropdown:hover div {
         display:block;
+        max-height:500px;
     }
 
 
     .Dropdown div .NavBarItem{
-        position: relative;
         display: block;
         padding: 5px 0px;
     }
