@@ -7,11 +7,14 @@ class JoinPage extends Component {
   render() {
     return (
       <div className="JoinPage">
+        
         <h1>Join</h1>
         <p>
         Everyone are free to join us for any of the races. However, if you are
         interested in join our team you can send us an application.
         </p>
+
+        <br/>
         <h2>Application</h2>
         <form>
           <input type="text" placeholder="Firstname" />
@@ -21,6 +24,7 @@ class JoinPage extends Component {
           <input type="submit" value="Submit" />
         </form>
 
+        <br/>
         <h2>Newsletter</h2>
         <p>
           Get updates about upcoming events.

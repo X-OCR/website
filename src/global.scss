@@ -8,3 +8,21 @@ $font-link-hover-color: #DDDDDD;
 $main-font: Tahoma, Geneva, sans-serif;
 $header-font: Tahoma, Geneva, sans-serif;
 $X-font: 'Trade Winds', cursive;
+
+// Mixins
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+}
+
+
+
+@mixin box-sizing($box-model) {
+    -webkit-box-sizing: $box-model; 
+       -moz-box-sizing: $box-model;
+            box-sizing: $box-model;
+  }
+  
