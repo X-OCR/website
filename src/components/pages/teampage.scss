@@ -1,9 +1,14 @@
 @import '../../global';
 
 .TeamPage {
-    
+
     ul li {
+        display: inline-block;
         padding:3px;
+        margin: 10px;
         list-style-type: none;
+        border:1px solid white;
+        width:200px;
+        height:200px;
     }
 }
