@@ -16,7 +16,7 @@ class NavBar extends Component {
                     <NavLink className="NavBarItem" to="/events/actionrun2018">Action run 2018</NavLink>
                     <NavLink className="NavBarItem" to="/events/toughviking2019">Tough Viking 2019</NavLink>
                 </Dropdown>
-                <NavLink className="NavBarItem" to="/team">The team</NavLink>
+                <NavLink className="NavBarItem" to="/team">The Team</NavLink>
                 <NavLink className="NavBarItem" to="/join">Join us</NavLink>
             </div>
         );
